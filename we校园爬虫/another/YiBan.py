@@ -1,7 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2021/8/12
-# @Author  : 2984922017@qq.com
 # @File    : YiBan.py
 # @Software: PyCharm
 
@@ -476,24 +475,3 @@ def YiBan_login(data):
     yiBan_login = YiBan_Login(accounts)
     return yiBan_login.login()
 
-
-# if __name__ == '__main__':
-#     data = {
-#         "username": "18565242473",
-#         "password": "Zhangyue1221",
-#         "submit": {
-#             "xmqkb":
-#                 {"id": "52a67a007e304439017ee6442066494d"},
-#             "c1": "正常",
-#             "c2": "无上述症状",
-#             "c3": "否",
-#             "c5": "绿色",
-#             "c6": "是",
-#             "c8": "茂名市 茂南区 官渡街道 官渡二路 139号",
-#             "type": "YQSJSB",
-#             "location_longitude": 110.92235,
-#             "location_latitude": 21.679371,
-#             "location_address": "茂名市 茂南区 官渡街道 官渡二路 139号"
-#         }
-#     }
-#     print(YiBan_post(data))
